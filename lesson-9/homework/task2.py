@@ -32,3 +32,4 @@ with open("average_grades.csv", mode="w", newline="") as file:
         writer.writerow({"Subject": subject, "Average Grade": average})
 
 print("Average grades calculated and saved to average_grades.csv.")
+import json
